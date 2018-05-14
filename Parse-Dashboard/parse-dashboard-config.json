@@ -1,12 +1,22 @@
 {
   "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
+    "serverURL": "https://tgbottest.herokuapp.com/parse",
+    "appId": "myAppId",
+    "masterKey": "adsfasdfasdfasdfasdf",
+    "appName": "MyApp",
     "iconName": "",
     "primaryBackgroundColor": "",
     "secondaryBackgroundColor": ""
   }],
-  "iconsFolder": "icons"
+  "iconsFolder": "icons",
+  "users": [
+    {
+      "user": "tgtest1",
+      "pass": "usertestpass1"
+    },
+    {
+      "user": "tgtest100",
+      "pass": "usertestpass100"
+    },
+  ]
 }
